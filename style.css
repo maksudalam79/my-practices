@@ -6,12 +6,7 @@ body {
 }
 
 h1 {
-    font-size: 75px;
-
-}
-
-p {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .skip {
@@ -26,27 +21,59 @@ p {
 
 .half-with {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 30px;
+
+
+
+
 
 }
 
 .top img {
     width: 80%;
-    margin-left: 70px;
+
+
+
+
+
 }
 
 .link {
     text-decoration: none;
-    background-color: Chocolate;
+    background-image: linear-gradient(to left, darkorange, OrangeRed);
     margin: 50px 10px;
     padding: 10px 30px;
     border-radius: 100px;
     color: whitesmoke;
-    margin-left: 40%;
+    margin-left: 20%;
+}
+
+.down-link {
+    text-decoration: none;
+    background-image: linear-gradient(to left, darkorange, OrangeRed);
+    margin: 50px 10px;
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: whitesmoke;
+}
+
+.mid {
+    display: flex;
 
 
+}
 
+.mid-with {
+    width: 50%;
+}
 
+.mid img {
+    width: 30%;
+    margin-left: 25%;
 
+}
 
+.mid-bannar {
+    background-image: url(shapes/7.png);
+    background-repeat: no-repeat;
 }

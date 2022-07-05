@@ -77,3 +77,7 @@ h1 {
     background-image: url(shapes/7.png);
     background-repeat: no-repeat;
 }
+
+.fix-area {
+    display: flex;
+}
